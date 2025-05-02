@@ -15,7 +15,6 @@ import {
   git,
   figma,
   docker,
-  tesla,
   deimosNft,
   safeAndSound,
   nobiPro,
@@ -90,10 +89,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -113,35 +108,22 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Reactjs",
-    icon: reactjs,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Reactjs",
-    icon: reactjs,
-    iconBg: "#383E56",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Web Developer",
     company_name: "Web",
     icon: web,
+    iconBg: "#383E56",
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "Developing and maintaining web applications using vanila JS and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "React Developer",
+    company_name: "ReactJs & React Native",
+    icon: reactjs,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -153,7 +135,7 @@ const experiences = [
   },
   {
     title: "Fullstack Developer",
-    company_name: "Web",
+    company_name: "NextJs & ASP.NET Core",
     icon: web,
     iconBg: "#383E56",
     date: "May 2023 - Jan 2025",
@@ -195,7 +177,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Deimos NFTNFT",
+    name: "Deimos NFT",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs. ",
     tags: [
